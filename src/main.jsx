@@ -564,13 +564,13 @@ function App() {
               </div>
 
               <h1>
-                Every page deserves<br />
-                <em>a little</em> <span>pretty.</span>
+                Professional Handwritten <em>Notes</em><br />
+                & Assignments in <span>Sri Lanka.</span>
               </h1>
 
               <p className="hero-lead">
                 Beautifully handwritten notes, summaries, diagrams, and assignments —
-                crafted with patience, laser-focused tidiness, and delivered islandwide in hard copy.
+                crafted with patience, neatest handwriting, and delivered islandwide in hard copy.
               </p>
 
               <div className="hero-actions">
@@ -1684,22 +1684,6 @@ function App() {
             <a href="#how-it-works">How to Order</a>
             <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
-            <a
-              href="https://wa.me/94763296496"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#128c7e", fontWeight: "700" }}
-            >
-              WhatsApp: +94 76 329 6496
-            </a>
-            <a
-              href="https://www.facebook.com/share/1DvnksyHaQ/"
-              target="_blank"
-              rel="noreferrer"
-              style={{ color: "#1877f2", fontWeight: "700" }}
-            >
-              Facebook Page
-            </a>
           </div>
 
           {/* Modulaver Systems attribution and copyright */}

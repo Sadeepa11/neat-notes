@@ -1,0 +1,21 @@
+{
+  "name": "Neat Notes Sri Lanka",
+  "short_name": "Neat Notes",
+  "description": "Professional Handwritten Notes & Assignment Writing Service Sri Lanka",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf6",
+  "theme_color": "#fff5f3",
+  "icons": [
+    {
+      "src": "/images/neat-notes-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/neat-notes-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

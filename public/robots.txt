@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://neat-notes.vercel.app/sitemap.xml
