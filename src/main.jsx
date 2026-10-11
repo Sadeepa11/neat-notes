@@ -2,11 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowUpRight, BookOpenText, ChartNoAxesCombined, Check, Heart,
-  Mail, Menu, X, NotebookPen, PenLine, Sparkles, Star, MessageCircle,
+  Menu, X, NotebookPen, PenLine, Sparkles, Star, MessageCircle,
   Phone, ChevronDown, ArrowRight, Clock, ShieldCheck,
   Send, Calculator, ChevronUp, Palette, FileCheck2,
   Receipt, Truck, Zap, AlertCircle, CheckCircle2, FileText, Book,
-  MapPin, User, Package, Copy, ExternalLink, RefreshCw, Camera, Download
+  MapPin, User, Package, Copy, ExternalLink, RefreshCw, Camera, Download,
+  Facebook
 } from "lucide-react";
 import html2canvas from "html2canvas";
 import "./styles.css";
@@ -522,6 +523,30 @@ function App() {
             >
               <MessageCircle size={16} />
               <span>WhatsApp: +94 76 329 6496</span>
+            </a>
+            <a
+              href="https://www.facebook.com/share/1DvnksyHaQ/"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+              style={{
+                marginTop: "8px",
+                width: "100%",
+                textDecoration: "none",
+                background: "#1877f2",
+                color: "#ffffff",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "8px",
+                padding: "12px 18px",
+                borderRadius: "var(--radius-full)",
+                fontWeight: "600",
+                fontSize: "14px"
+              }}
+            >
+              <Facebook size={16} />
+              <span>Facebook Page</span>
             </a>
             <p className="mobile-drawer-tagline">Neat writing, guaranteed satisfaction ♡</p>
           </div>
@@ -1619,26 +1644,14 @@ function App() {
 
               <a
                 className="contact-card-btn facebook-btn"
-                href="https://www.facebook.com/"
+                href="https://www.facebook.com/share/1DvnksyHaQ/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="btn-icon-wrap"><MessageCircle size={22} /></div>
+                <div className="btn-icon-wrap"><Facebook size={22} /></div>
                 <div className="btn-text-wrap">
-                  <strong>Message on Facebook</strong>
-                  <small>Official Neat Notes page</small>
-                </div>
-                <ArrowUpRight size={18} className="btn-arrow" />
-              </a>
-
-              <a
-                className="contact-card-btn email-btn"
-                href="mailto:neatnotes.contact@gmail.com"
-              >
-                <div className="btn-icon-wrap"><Mail size={22} /></div>
-                <div className="btn-text-wrap">
-                  <strong>Send an Email</strong>
-                  <small>For larger assignments or documents</small>
+                  <strong>Visit Our Facebook Page</strong>
+                  <small>Follow us for latest notes, updates & reviews</small>
                 </div>
                 <ArrowUpRight size={18} className="btn-arrow" />
               </a>
@@ -1678,6 +1691,14 @@ function App() {
               style={{ color: "#128c7e", fontWeight: "700" }}
             >
               WhatsApp: +94 76 329 6496
+            </a>
+            <a
+              href="https://www.facebook.com/share/1DvnksyHaQ/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: "#1877f2", fontWeight: "700" }}
+            >
+              Facebook Page
             </a>
           </div>
 

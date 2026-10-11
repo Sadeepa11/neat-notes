@@ -1599,8 +1599,8 @@ h1 em, h2 em {
 
 .contact-options-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
   margin-bottom: 24px;
 }
 
@@ -1642,11 +1642,6 @@ h1 em, h2 em {
 .facebook-btn .btn-icon-wrap {
   background: #eef2ff;
   color: #1877f2;
-}
-
-.email-btn .btn-icon-wrap {
-  background: var(--pink-light);
-  color: var(--pink-dark);
 }
 
 .btn-text-wrap {
